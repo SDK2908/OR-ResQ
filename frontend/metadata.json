@@ -1,0 +1,6 @@
+{
+  "name": "OR-ResQ",
+  "description": "Dynamic Operating Room Optimization & Emergency Recovery Engine with constraint-based scheduling and AI duration prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
