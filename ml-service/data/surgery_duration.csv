@@ -1,0 +1,1201 @@
+procedure_type,surgeon_experience,patient_complexity,historical_average,actual_duration
+Cholecystectomy,8,3,61.1,66
+Cholecystectomy,11,2,86.6,82
+Appendectomy,7,2,59.6,52
+Cataract Surgery,9,4,34.7,38
+Coronary Artery Bypass,16,2,234.2,241
+Cholecystectomy,6,2,77.1,79
+Appendectomy,1,2,65.5,65
+Hernia Repair,2,3,82.3,83
+Cholecystectomy,10,1,62.1,58
+Hip Replacement,5,4,162.0,192
+Knee Replacement,10,5,115.4,139
+Cholecystectomy,13,1,87.4,83
+Coronary Artery Bypass,16,2,225.1,191
+Spinal Fusion,10,1,242.7,202
+Spinal Fusion,19,3,194.1,192
+Spinal Fusion,1,3,173.4,191
+Knee Replacement,9,2,109.6,114
+Coronary Artery Bypass,6,5,306.7,375
+Cataract Surgery,11,3,22.3,23
+Coronary Artery Bypass,4,2,267.5,283
+Hernia Repair,9,3,88.7,90
+Hernia Repair,7,1,79.6,76
+Appendectomy,12,3,73.4,71
+Knee Replacement,14,4,122.9,135
+Hip Replacement,9,3,119.2,113
+Appendectomy,7,2,61.0,60
+Hernia Repair,9,1,55.8,54
+Cataract Surgery,15,1,40.4,33
+Cataract Surgery,12,3,43.7,47
+Hip Replacement,9,3,165.7,153
+Coronary Artery Bypass,6,3,319.4,319
+Cholecystectomy,10,3,71.2,73
+Hip Replacement,9,1,110.4,96
+Appendectomy,12,3,70.1,71
+Hip Replacement,7,3,142.4,130
+Hip Replacement,10,1,157.1,132
+Coronary Artery Bypass,1,1,236.1,241
+Cholecystectomy,8,1,62.7,49
+Hip Replacement,4,2,121.4,124
+Hip Replacement,17,4,162.5,174
+Cholecystectomy,19,5,62.3,66
+Hip Replacement,6,2,120.0,118
+Appendectomy,14,4,45.8,48
+Cataract Surgery,6,4,27.1,28
+Cataract Surgery,5,3,23.9,29
+Appendectomy,15,3,66.2,66
+Knee Replacement,1,1,98.1,93
+Cholecystectomy,9,4,90.4,102
+Hip Replacement,11,3,144.7,147
+Spinal Fusion,11,2,252.8,262
+Coronary Artery Bypass,6,4,207.0,221
+Cholecystectomy,4,1,60.4,53
+Hip Replacement,12,1,140.4,127
+Hip Replacement,14,3,132.2,143
+Appendectomy,1,1,63.4,57
+Knee Replacement,15,1,109.5,84
+Hernia Repair,8,3,72.2,72
+Hernia Repair,9,1,67.7,70
+Coronary Artery Bypass,13,1,297.8,259
+Hernia Repair,2,3,52.3,59
+Cholecystectomy,17,3,63.4,54
+Spinal Fusion,11,2,214.1,207
+Appendectomy,10,1,71.5,66
+Coronary Artery Bypass,9,2,316.6,256
+Knee Replacement,13,1,148.7,109
+Spinal Fusion,3,3,236.1,267
+Hip Replacement,10,4,126.0,133
+Cataract Surgery,11,2,25.6,22
+Hip Replacement,6,2,123.4,114
+Cholecystectomy,8,2,103.5,109
+Spinal Fusion,19,1,253.3,233
+Hernia Repair,5,4,46.7,51
+Coronary Artery Bypass,4,3,268.8,287
+Hernia Repair,3,4,47.0,56
+Hip Replacement,16,2,131.9,124
+Spinal Fusion,17,3,223.0,234
+Coronary Artery Bypass,7,1,232.4,192
+Coronary Artery Bypass,15,2,278.1,237
+Appendectomy,11,3,50.6,57
+Spinal Fusion,6,2,201.1,201
+Knee Replacement,7,3,131.2,149
+Cholecystectomy,9,2,96.8,83
+Hip Replacement,23,3,118.8,113
+Cholecystectomy,14,3,80.5,74
+Coronary Artery Bypass,9,1,254.3,250
+Cholecystectomy,11,3,95.0,107
+Cataract Surgery,9,2,21.3,23
+Cataract Surgery,16,5,36.7,40
+Cataract Surgery,8,4,35.3,36
+Cataract Surgery,9,2,42.4,37
+Hip Replacement,8,2,160.4,173
+Hip Replacement,13,2,126.5,120
+Spinal Fusion,12,2,248.2,235
+Knee Replacement,14,3,133.9,135
+Coronary Artery Bypass,11,3,198.1,188
+Appendectomy,9,1,70.0,58
+Spinal Fusion,1,4,182.8,231
+Hip Replacement,8,2,139.3,145
+Coronary Artery Bypass,15,5,284.1,278
+Appendectomy,3,1,71.7,63
+Coronary Artery Bypass,7,2,207.6,203
+Hip Replacement,4,2,137.3,153
+Coronary Artery Bypass,10,3,222.8,228
+Spinal Fusion,20,1,174.7,151
+Appendectomy,9,1,73.2,66
+Knee Replacement,18,2,121.0,119
+Hernia Repair,12,3,79.5,85
+Cholecystectomy,11,3,95.0,100
+Hernia Repair,13,5,70.9,77
+Hip Replacement,6,1,114.6,95
+Hernia Repair,7,5,83.3,97
+Appendectomy,5,3,52.2,57
+Spinal Fusion,4,2,151.4,157
+Spinal Fusion,13,2,219.9,183
+Hernia Repair,17,2,72.7,61
+Hernia Repair,9,2,59.5,66
+Cataract Surgery,2,2,26.1,27
+Appendectomy,6,2,57.3,60
+Hernia Repair,15,2,60.3,50
+Appendectomy,10,2,58.1,58
+Hip Replacement,5,4,151.4,163
+Cholecystectomy,6,3,73.2,79
+Spinal Fusion,4,3,202.1,214
+Spinal Fusion,5,2,188.7,190
+Hip Replacement,8,3,128.9,113
+Hip Replacement,1,5,123.0,155
+Hernia Repair,11,2,89.1,79
+Hernia Repair,5,5,45.6,55
+Hernia Repair,16,2,76.4,76
+Appendectomy,4,1,60.1,57
+Appendectomy,11,1,48.8,41
+Cataract Surgery,8,1,21.9,19
+Hernia Repair,9,2,48.8,51
+Hip Replacement,1,2,156.5,176
+Coronary Artery Bypass,4,3,229.7,232
+Hip Replacement,9,2,147.5,145
+Cholecystectomy,3,2,67.0,71
+Appendectomy,7,2,48.1,42
+Hip Replacement,11,3,165.4,152
+Hip Replacement,2,4,135.5,154
+Knee Replacement,11,3,98.9,104
+Hernia Repair,5,2,64.8,65
+Hernia Repair,7,1,67.5,61
+Coronary Artery Bypass,8,2,285.5,273
+Appendectomy,7,1,75.0,64
+Knee Replacement,3,1,120.9,99
+Coronary Artery Bypass,7,2,272.5,266
+Spinal Fusion,11,2,185.3,178
+Cataract Surgery,18,3,27.2,25
+Cataract Surgery,9,3,22.2,23
+Appendectomy,4,1,63.0,57
+Spinal Fusion,4,1,218.5,203
+Hernia Repair,14,3,69.7,66
+Cholecystectomy,3,3,61.3,61
+Hernia Repair,7,5,69.8,82
+Cholecystectomy,16,2,80.8,79
+Hernia Repair,8,5,67.9,88
+Hip Replacement,11,3,137.4,143
+Knee Replacement,8,2,142.5,154
+Hernia Repair,8,3,81.9,89
+Cataract Surgery,4,2,41.6,43
+Coronary Artery Bypass,8,3,249.2,267
+Coronary Artery Bypass,9,3,220.4,222
+Coronary Artery Bypass,4,5,240.2,268
+Cataract Surgery,18,2,44.1,44
+Cholecystectomy,3,2,99.3,103
+Knee Replacement,7,2,117.5,111
+Hernia Repair,6,4,60.2,62
+Coronary Artery Bypass,2,2,314.0,289
+Appendectomy,10,2,61.6,64
+Hip Replacement,7,3,154.8,164
+Cholecystectomy,5,1,80.0,63
+Appendectomy,7,3,50.3,54
+Knee Replacement,18,3,104.3,105
+Hip Replacement,6,3,139.9,144
+Cataract Surgery,18,4,26.4,27
+Knee Replacement,23,2,99.1,76
+Coronary Artery Bypass,5,5,279.7,342
+Cataract Surgery,6,2,22.7,23
+Hernia Repair,11,1,46.0,37
+Appendectomy,9,4,71.9,70
+Hip Replacement,5,3,146.4,166
+Knee Replacement,15,2,129.6,110
+Cataract Surgery,7,4,20.8,24
+Spinal Fusion,10,3,232.2,243
+Spinal Fusion,17,2,208.4,172
+Cataract Surgery,6,4,44.2,55
+Cataract Surgery,17,4,44.1,51
+Coronary Artery Bypass,11,4,315.7,321
+Appendectomy,12,3,49.3,51
+Hernia Repair,14,1,71.3,50
+Hip Replacement,1,2,138.3,127
+Hip Replacement,5,3,148.9,150
+Coronary Artery Bypass,10,5,205.2,238
+Cholecystectomy,11,2,64.4,59
+Coronary Artery Bypass,7,3,266.4,243
+Cataract Surgery,13,3,35.4,34
+Hip Replacement,18,1,136.6,106
+Spinal Fusion,14,2,209.9,190
+Hip Replacement,18,1,168.1,130
+Hip Replacement,8,4,148.5,163
+Hip Replacement,10,4,169.3,176
+Hip Replacement,10,3,145.2,141
+Appendectomy,24,3,49.7,43
+Knee Replacement,11,2,101.0,92
+Hip Replacement,13,1,145.3,125
+Coronary Artery Bypass,9,3,258.4,246
+Cholecystectomy,10,3,80.3,89
+Hernia Repair,11,2,65.6,61
+Coronary Artery Bypass,15,2,245.4,238
+Cholecystectomy,11,3,74.5,77
+Spinal Fusion,6,3,191.9,196
+Coronary Artery Bypass,6,3,202.9,189
+Hip Replacement,13,4,135.8,137
+Coronary Artery Bypass,13,3,244.1,251
+Spinal Fusion,7,1,254.9,213
+Cholecystectomy,16,4,64.2,70
+Appendectomy,5,1,60.5,54
+Spinal Fusion,14,4,246.1,251
+Appendectomy,5,3,73.9,76
+Hip Replacement,1,2,119.3,124
+Spinal Fusion,8,2,162.6,164
+Appendectomy,5,1,61.3,51
+Hernia Repair,7,1,76.6,73
+Knee Replacement,7,3,126.1,134
+Appendectomy,4,2,43.2,43
+Knee Replacement,7,3,115.4,108
+Cholecystectomy,14,1,99.8,94
+Cholecystectomy,6,2,72.2,66
+Hernia Repair,4,1,54.7,50
+Cataract Surgery,8,5,33.2,40
+Appendectomy,8,1,40.3,38
+Hernia Repair,13,2,58.0,56
+Knee Replacement,7,4,115.9,121
+Spinal Fusion,10,1,157.9,136
+Cholecystectomy,3,3,98.8,103
+Coronary Artery Bypass,1,1,227.6,238
+Cataract Surgery,11,4,40.8,43
+Hip Replacement,7,4,136.1,154
+Spinal Fusion,9,3,174.4,174
+Hip Replacement,4,4,164.4,202
+Knee Replacement,11,3,108.0,112
+Cholecystectomy,10,3,68.0,64
+Cataract Surgery,14,5,37.0,39
+Spinal Fusion,7,1,245.1,215
+Cataract Surgery,11,2,35.8,31
+Cholecystectomy,7,4,74.0,83
+Cholecystectomy,11,3,89.0,89
+Coronary Artery Bypass,1,4,250.2,284
+Cataract Surgery,6,3,42.7,44
+Knee Replacement,1,4,147.7,179
+Cholecystectomy,11,2,82.7,81
+Cataract Surgery,5,4,33.1,36
+Coronary Artery Bypass,5,4,243.1,294
+Spinal Fusion,15,2,157.3,151
+Knee Replacement,7,2,113.3,108
+Coronary Artery Bypass,8,3,206.8,209
+Spinal Fusion,4,3,239.5,231
+Cholecystectomy,5,2,89.1,91
+Knee Replacement,4,1,147.3,150
+Knee Replacement,7,3,103.5,119
+Appendectomy,14,3,63.2,58
+Knee Replacement,13,4,103.9,100
+Knee Replacement,14,3,134.7,134
+Cataract Surgery,9,2,35.3,30
+Hip Replacement,11,4,128.6,129
+Spinal Fusion,4,3,224.6,234
+Coronary Artery Bypass,6,1,255.4,238
+Knee Replacement,14,2,143.0,134
+Cholecystectomy,6,1,92.0,84
+Knee Replacement,11,2,110.0,101
+Hip Replacement,18,2,159.0,124
+Coronary Artery Bypass,10,2,255.3,295
+Appendectomy,15,2,51.2,49
+Knee Replacement,7,3,102.6,119
+Knee Replacement,2,4,136.7,162
+Appendectomy,12,3,49.0,45
+Coronary Artery Bypass,8,1,204.5,194
+Coronary Artery Bypass,8,4,273.1,297
+Cataract Surgery,15,2,34.9,32
+Knee Replacement,14,3,111.0,109
+Knee Replacement,21,1,131.5,116
+Appendectomy,2,5,53.7,67
+Hernia Repair,8,2,78.6,77
+Cholecystectomy,9,1,94.7,78
+Spinal Fusion,13,2,239.5,245
+Cataract Surgery,10,3,35.8,36
+Cataract Surgery,12,4,20.9,25
+Spinal Fusion,1,3,252.7,273
+Hernia Repair,7,4,46.6,50
+Appendectomy,8,2,70.3,70
+Coronary Artery Bypass,13,5,286.6,310
+Cataract Surgery,3,2,37.3,41
+Cholecystectomy,15,4,92.7,100
+Hernia Repair,15,2,59.5,57
+Coronary Artery Bypass,4,3,211.7,232
+Spinal Fusion,2,4,217.6,261
+Appendectomy,6,4,42.6,46
+Knee Replacement,13,4,147.4,166
+Appendectomy,10,2,44.4,46
+Appendectomy,4,2,61.2,52
+Cholecystectomy,4,3,85.8,91
+Hip Replacement,12,3,167.6,168
+Cholecystectomy,9,5,71.8,89
+Hernia Repair,12,1,76.2,66
+Cholecystectomy,13,1,80.3,65
+Spinal Fusion,7,2,223.5,200
+Hernia Repair,6,3,83.3,76
+Spinal Fusion,11,1,206.0,186
+Cataract Surgery,4,4,20.7,23
+Knee Replacement,13,5,128.7,148
+Cataract Surgery,10,1,33.1,25
+Spinal Fusion,2,2,220.7,231
+Knee Replacement,13,4,137.2,152
+Cholecystectomy,8,5,83.3,101
+Hip Replacement,19,4,130.8,124
+Hernia Repair,13,3,53.8,52
+Cholecystectomy,15,1,82.6,80
+Spinal Fusion,1,1,242.7,219
+Appendectomy,10,2,73.2,66
+Coronary Artery Bypass,19,3,270.4,259
+Hernia Repair,12,2,66.7,56
+Cholecystectomy,12,2,91.0,90
+Spinal Fusion,6,3,216.7,249
+Spinal Fusion,12,3,257.3,269
+Spinal Fusion,13,1,176.6,160
+Appendectomy,4,2,50.2,53
+Knee Replacement,16,1,139.7,110
+Knee Replacement,3,2,122.4,123
+Appendectomy,5,2,43.2,45
+Spinal Fusion,8,4,155.4,185
+Cataract Surgery,11,1,27.1,24
+Hernia Repair,9,2,77.7,70
+Hip Replacement,8,2,131.8,135
+Hernia Repair,4,1,82.1,71
+Cholecystectomy,10,5,77.7,85
+Knee Replacement,3,1,105.9,99
+Knee Replacement,11,1,134.2,107
+Knee Replacement,7,5,113.0,131
+Hernia Repair,3,2,71.7,72
+Hernia Repair,13,1,66.4,57
+Coronary Artery Bypass,11,3,265.9,241
+Appendectomy,8,5,60.9,77
+Hip Replacement,6,3,153.3,158
+Coronary Artery Bypass,8,5,209.2,243
+Cholecystectomy,4,2,68.6,70
+Hip Replacement,11,4,134.6,125
+Appendectomy,3,5,64.7,79
+Cataract Surgery,8,4,33.1,38
+Spinal Fusion,4,3,210.1,201
+Hernia Repair,10,3,72.5,77
+Hip Replacement,18,3,166.5,155
+Cataract Surgery,2,4,27.9,36
+Hernia Repair,3,4,58.0,65
+Coronary Artery Bypass,18,2,296.4,250
+Hernia Repair,19,3,88.0,88
+Cataract Surgery,11,3,25.3,24
+Hernia Repair,4,2,51.2,48
+Hip Replacement,14,3,148.3,148
+Cholecystectomy,17,5,90.7,110
+Knee Replacement,18,2,117.4,97
+Hip Replacement,8,1,155.4,147
+Cholecystectomy,10,4,89.4,106
+Appendectomy,14,1,72.0,70
+Appendectomy,4,5,74.9,95
+Hernia Repair,15,1,84.5,71
+Spinal Fusion,15,2,181.3,163
+Knee Replacement,6,1,141.8,130
+Knee Replacement,4,1,135.2,114
+Spinal Fusion,1,1,237.0,215
+Coronary Artery Bypass,7,3,297.5,310
+Knee Replacement,1,1,149.0,145
+Coronary Artery Bypass,9,2,220.6,175
+Appendectomy,7,3,49.2,53
+Cataract Surgery,4,4,27.7,33
+Hernia Repair,1,2,76.1,69
+Hip Replacement,11,3,123.1,127
+Spinal Fusion,4,3,195.7,205
+Hip Replacement,6,4,155.7,163
+Cataract Surgery,2,1,33.2,35
+Hip Replacement,12,3,144.4,151
+Cholecystectomy,8,4,90.6,93
+Cataract Surgery,3,2,40.2,41
+Appendectomy,7,1,59.6,51
+Hernia Repair,9,1,81.7,65
+Spinal Fusion,7,4,227.0,252
+Cataract Surgery,2,3,20.8,24
+Coronary Artery Bypass,13,4,238.7,241
+Coronary Artery Bypass,6,3,238.8,231
+Spinal Fusion,14,1,163.0,138
+Hip Replacement,10,2,160.1,123
+Coronary Artery Bypass,11,2,259.2,232
+Hernia Repair,15,1,53.5,41
+Coronary Artery Bypass,19,2,269.9,220
+Cholecystectomy,16,3,64.5,63
+Appendectomy,14,3,48.6,49
+Appendectomy,13,4,44.9,47
+Spinal Fusion,10,2,213.5,177
+Knee Replacement,4,2,149.2,148
+Knee Replacement,4,5,129.4,162
+Coronary Artery Bypass,7,1,292.2,282
+Coronary Artery Bypass,5,2,213.9,210
+Knee Replacement,15,5,139.3,147
+Knee Replacement,9,1,116.4,110
+Cataract Surgery,16,1,41.2,37
+Hernia Repair,8,1,62.0,55
+Hip Replacement,12,5,138.8,151
+Appendectomy,12,3,47.4,52
+Cataract Surgery,6,2,42.9,38
+Hip Replacement,10,3,143.1,136
+Spinal Fusion,2,2,183.9,206
+Cataract Surgery,8,2,39.0,39
+Appendectomy,10,2,59.7,59
+Coronary Artery Bypass,10,3,228.4,242
+Hip Replacement,5,2,140.0,127
+Cataract Surgery,5,1,44.2,38
+Spinal Fusion,8,4,168.6,174
+Appendectomy,10,4,58.3,62
+Appendectomy,1,2,66.8,73
+Knee Replacement,4,3,95.5,102
+Cataract Surgery,15,2,36.5,33
+Appendectomy,7,1,58.5,63
+Coronary Artery Bypass,11,1,294.8,252
+Knee Replacement,6,2,108.3,103
+Coronary Artery Bypass,14,2,200.3,179
+Hip Replacement,10,5,128.0,145
+Appendectomy,4,1,43.3,43
+Appendectomy,17,3,64.6,65
+Spinal Fusion,10,3,212.2,211
+Appendectomy,15,3,48.0,44
+Hernia Repair,19,4,47.1,50
+Appendectomy,10,2,46.3,43
+Knee Replacement,8,1,136.4,113
+Knee Replacement,1,3,126.0,132
+Spinal Fusion,8,3,192.2,177
+Cholecystectomy,11,2,82.5,77
+Cholecystectomy,10,2,75.3,59
+Spinal Fusion,7,2,153.3,180
+Spinal Fusion,7,3,210.8,226
+Coronary Artery Bypass,2,3,201.1,204
+Cholecystectomy,3,1,72.1,73
+Coronary Artery Bypass,9,2,231.2,222
+Spinal Fusion,11,2,233.7,223
+Coronary Artery Bypass,14,3,203.4,208
+Spinal Fusion,14,3,245.0,241
+Hip Replacement,11,1,144.3,134
+Hernia Repair,11,2,57.1,55
+Hernia Repair,12,2,66.8,64
+Cataract Surgery,10,2,34.8,34
+Coronary Artery Bypass,2,2,233.2,218
+Spinal Fusion,12,3,197.4,180
+Hernia Repair,12,2,59.4,54
+Coronary Artery Bypass,7,2,315.9,338
+Hip Replacement,7,2,129.6,141
+Hip Replacement,2,3,145.5,155
+Cataract Surgery,11,4,43.6,52
+Cholecystectomy,10,2,96.9,86
+Hernia Repair,5,4,55.9,59
+Cholecystectomy,4,3,80.2,82
+Coronary Artery Bypass,10,4,260.7,267
+Cholecystectomy,9,1,64.9,64
+Appendectomy,5,5,59.7,68
+Spinal Fusion,8,2,256.2,248
+Hip Replacement,2,3,136.7,159
+Knee Replacement,11,2,114.0,108
+Cholecystectomy,12,2,65.2,60
+Cataract Surgery,4,1,39.6,36
+Cataract Surgery,6,1,28.0,29
+Spinal Fusion,8,5,221.3,252
+Hip Replacement,5,2,141.0,137
+Cataract Surgery,6,3,25.8,28
+Coronary Artery Bypass,8,2,241.4,201
+Coronary Artery Bypass,8,3,240.5,239
+Cholecystectomy,11,2,86.0,74
+Hip Replacement,8,3,137.5,160
+Spinal Fusion,4,2,215.7,204
+Cataract Surgery,12,2,35.4,30
+Cholecystectomy,8,1,90.2,85
+Spinal Fusion,4,1,226.3,209
+Coronary Artery Bypass,3,4,245.0,285
+Knee Replacement,6,2,125.5,124
+Cataract Surgery,17,2,35.5,27
+Hip Replacement,15,2,158.9,141
+Cataract Surgery,12,1,30.4,24
+Appendectomy,9,2,67.9,66
+Hernia Repair,1,3,52.6,59
+Cholecystectomy,8,5,85.8,108
+Appendectomy,6,2,66.6,67
+Hip Replacement,14,2,127.9,117
+Cholecystectomy,18,2,79.8,70
+Spinal Fusion,5,3,244.7,249
+Hip Replacement,11,3,158.8,147
+Knee Replacement,8,2,112.8,103
+Cholecystectomy,9,1,66.1,54
+Hernia Repair,16,2,84.0,83
+Spinal Fusion,10,2,241.1,205
+Hernia Repair,8,4,73.3,82
+Cholecystectomy,9,4,78.1,78
+Cataract Surgery,9,3,43.8,45
+Cholecystectomy,2,2,92.9,97
+Cholecystectomy,1,4,95.8,122
+Cataract Surgery,11,3,26.7,25
+Cataract Surgery,16,1,39.7,30
+Cataract Surgery,12,2,20.4,19
+Coronary Artery Bypass,8,3,216.3,217
+Knee Replacement,11,2,143.1,131
+Cholecystectomy,11,2,76.7,70
+Hernia Repair,9,1,77.7,64
+Cholecystectomy,6,2,60.0,59
+Cataract Surgery,6,5,20.2,22
+Coronary Artery Bypass,5,1,280.2,259
+Cholecystectomy,6,2,64.6,66
+Knee Replacement,8,3,130.3,132
+Knee Replacement,8,1,119.2,96
+Coronary Artery Bypass,6,4,270.1,308
+Knee Replacement,5,5,136.4,160
+Spinal Fusion,9,2,237.0,249
+Hernia Repair,5,3,80.1,76
+Hernia Repair,6,2,54.2,52
+Appendectomy,10,2,67.4,61
+Hip Replacement,4,5,140.0,164
+Spinal Fusion,16,3,252.7,267
+Spinal Fusion,12,5,210.1,252
+Cholecystectomy,13,1,60.8,53
+Appendectomy,6,3,73.2,79
+Coronary Artery Bypass,3,3,245.1,278
+Knee Replacement,7,2,110.3,115
+Knee Replacement,4,4,124.5,150
+Cholecystectomy,1,2,74.0,80
+Hip Replacement,4,3,115.2,127
+Hernia Repair,7,1,75.0,65
+Knee Replacement,15,3,133.6,148
+Hernia Repair,15,2,52.5,52
+Cholecystectomy,18,2,94.7,85
+Cholecystectomy,16,2,71.8,63
+Spinal Fusion,11,1,156.1,131
+Cholecystectomy,8,3,100.2,101
+Appendectomy,11,2,41.5,37
+Coronary Artery Bypass,14,1,309.6,308
+Coronary Artery Bypass,9,2,219.2,241
+Cholecystectomy,14,1,85.7,78
+Hip Replacement,21,1,158.3,122
+Cataract Surgery,10,1,41.7,34
+Cataract Surgery,11,2,20.2,21
+Hip Replacement,4,3,137.8,142
+Hip Replacement,1,1,153.9,141
+Coronary Artery Bypass,2,3,193.1,206
+Appendectomy,16,4,73.3,75
+Hernia Repair,5,2,49.7,49
+Appendectomy,12,1,74.0,67
+Hip Replacement,1,2,163.8,166
+Cholecystectomy,2,2,86.1,87
+Appendectomy,13,2,55.2,50
+Spinal Fusion,2,2,251.9,275
+Cataract Surgery,12,3,26.8,27
+Cholecystectomy,12,2,67.0,67
+Spinal Fusion,10,2,256.1,256
+Cholecystectomy,11,3,64.1,61
+Appendectomy,11,3,47.5,46
+Spinal Fusion,13,4,193.6,208
+Knee Replacement,4,3,96.7,108
+Hip Replacement,16,1,115.7,104
+Appendectomy,12,4,69.1,73
+Spinal Fusion,11,3,225.5,225
+Cholecystectomy,19,2,61.0,56
+Knee Replacement,14,1,100.1,75
+Cataract Surgery,14,3,21.3,20
+Cataract Surgery,8,2,20.7,19
+Knee Replacement,6,3,110.1,117
+Hip Replacement,1,2,148.8,153
+Cholecystectomy,11,4,72.6,80
+Hip Replacement,12,5,147.8,151
+Spinal Fusion,10,3,202.8,194
+Spinal Fusion,11,2,192.7,191
+Hernia Repair,15,3,47.6,46
+Hip Replacement,15,2,168.4,162
+Appendectomy,15,5,66.7,72
+Coronary Artery Bypass,14,1,236.1,175
+Spinal Fusion,5,1,238.7,187
+Spinal Fusion,3,1,254.2,229
+Cataract Surgery,10,1,33.6,30
+Hip Replacement,5,3,111.2,119
+Knee Replacement,13,4,113.7,132
+Appendectomy,1,3,40.8,42
+Spinal Fusion,1,2,255.7,291
+Cholecystectomy,3,3,75.1,93
+Coronary Artery Bypass,16,1,292.9,237
+Spinal Fusion,6,2,174.6,168
+Hernia Repair,7,5,50.7,52
+Coronary Artery Bypass,10,1,300.6,239
+Spinal Fusion,12,3,251.3,248
+Cataract Surgery,9,5,23.5,26
+Knee Replacement,18,3,130.0,119
+Spinal Fusion,9,1,199.1,186
+Hernia Repair,9,2,80.4,75
+Coronary Artery Bypass,13,2,316.0,275
+Coronary Artery Bypass,1,3,203.2,227
+Hip Replacement,18,2,119.8,112
+Spinal Fusion,13,4,178.7,195
+Knee Replacement,1,1,135.3,123
+Cataract Surgery,2,3,37.6,43
+Coronary Artery Bypass,12,1,210.4,187
+Hernia Repair,8,2,74.7,74
+Cataract Surgery,6,2,23.8,25
+Cataract Surgery,12,2,25.0,23
+Cholecystectomy,16,2,81.3,79
+Hernia Repair,6,4,49.1,55
+Spinal Fusion,14,2,170.5,159
+Hernia Repair,13,1,70.4,66
+Spinal Fusion,2,2,238.9,256
+Appendectomy,11,3,69.4,66
+Cataract Surgery,9,2,34.3,35
+Appendectomy,16,3,57.6,51
+Knee Replacement,9,5,101.6,114
+Hip Replacement,13,5,158.5,186
+Coronary Artery Bypass,10,3,216.2,213
+Spinal Fusion,11,2,250.2,232
+Coronary Artery Bypass,13,4,261.8,260
+Appendectomy,5,2,67.5,63
+Coronary Artery Bypass,3,5,209.5,250
+Cholecystectomy,7,2,101.6,98
+Spinal Fusion,8,3,246.6,279
+Cataract Surgery,9,3,20.9,22
+Coronary Artery Bypass,12,2,195.0,174
+Cataract Surgery,10,4,43.0,46
+Hernia Repair,14,3,59.0,51
+Hip Replacement,14,4,118.1,122
+Hernia Repair,7,2,77.8,74
+Coronary Artery Bypass,10,4,286.3,273
+Knee Replacement,8,4,98.6,103
+Appendectomy,11,1,46.1,39
+Appendectomy,16,2,56.0,47
+Cataract Surgery,7,1,32.6,29
+Spinal Fusion,1,2,203.8,220
+Spinal Fusion,11,4,187.9,194
+Cholecystectomy,7,3,72.8,78
+Hip Replacement,4,2,161.4,149
+Coronary Artery Bypass,18,3,256.7,209
+Cataract Surgery,5,1,42.8,36
+Hernia Repair,16,3,72.4,67
+Hernia Repair,6,2,64.1,66
+Cataract Surgery,2,3,27.6,30
+Appendectomy,4,2,57.9,52
+Hernia Repair,10,5,58.4,68
+Spinal Fusion,8,4,244.8,296
+Hernia Repair,5,1,53.5,49
+Coronary Artery Bypass,6,3,275.9,265
+Hernia Repair,5,1,56.7,54
+Hip Replacement,7,3,130.6,124
+Cataract Surgery,6,4,42.7,45
+Knee Replacement,1,3,111.2,125
+Knee Replacement,15,2,147.1,125
+Hip Replacement,6,2,154.7,169
+Hernia Repair,7,1,71.4,65
+Cholecystectomy,10,3,81.2,85
+Hernia Repair,11,5,63.6,71
+Spinal Fusion,1,2,195.0,188
+Spinal Fusion,10,2,244.9,238
+Knee Replacement,14,2,112.2,105
+Knee Replacement,14,3,126.7,136
+Knee Replacement,6,5,128.8,148
+Coronary Artery Bypass,1,5,190.6,234
+Spinal Fusion,8,1,233.3,208
+Hip Replacement,12,1,123.6,102
+Hernia Repair,11,2,52.5,47
+Spinal Fusion,8,5,197.7,226
+Cataract Surgery,14,4,29.0,35
+Coronary Artery Bypass,11,2,192.5,217
+Appendectomy,11,3,60.6,64
+Appendectomy,4,3,53.1,52
+Appendectomy,8,3,63.2,65
+Coronary Artery Bypass,12,3,247.8,256
+Hip Replacement,6,3,151.7,154
+Hernia Repair,7,4,73.0,77
+Cholecystectomy,10,3,72.7,68
+Hernia Repair,14,2,82.4,74
+Knee Replacement,6,5,97.2,116
+Spinal Fusion,11,1,175.8,153
+Cataract Surgery,14,3,23.7,24
+Cholecystectomy,6,5,100.7,115
+Hernia Repair,12,1,65.9,58
+Hernia Repair,7,1,61.2,52
+Appendectomy,14,2,40.3,40
+Cataract Surgery,8,2,43.9,47
+Spinal Fusion,1,2,170.1,191
+Coronary Artery Bypass,4,4,279.7,323
+Knee Replacement,8,5,101.2,117
+Knee Replacement,14,3,100.7,95
+Cataract Surgery,6,1,24.5,23
+Knee Replacement,1,2,121.6,126
+Cholecystectomy,6,3,71.8,82
+Hip Replacement,7,3,168.7,167
+Cholecystectomy,8,3,79.5,76
+Coronary Artery Bypass,14,3,209.3,179
+Appendectomy,14,4,62.5,72
+Knee Replacement,5,5,99.1,120
+Appendectomy,4,4,57.7,65
+Cholecystectomy,11,4,80.7,81
+Cataract Surgery,17,1,27.9,23
+Coronary Artery Bypass,9,1,243.6,216
+Hernia Repair,2,2,85.1,83
+Spinal Fusion,12,2,190.0,180
+Cataract Surgery,5,1,37.9,37
+Hip Replacement,5,4,110.1,133
+Spinal Fusion,12,1,227.2,199
+Coronary Artery Bypass,7,5,203.9,236
+Coronary Artery Bypass,10,2,218.0,198
+Coronary Artery Bypass,4,1,196.0,168
+Cataract Surgery,4,5,31.4,37
+Appendectomy,20,4,58.6,60
+Cataract Surgery,11,3,43.1,37
+Knee Replacement,12,3,135.2,141
+Spinal Fusion,1,4,205.5,266
+Hip Replacement,22,2,126.4,102
+Knee Replacement,1,3,102.6,105
+Spinal Fusion,16,2,228.3,196
+Hernia Repair,11,3,75.9,75
+Knee Replacement,7,1,122.7,104
+Spinal Fusion,1,3,211.9,217
+Hernia Repair,8,1,84.5,76
+Coronary Artery Bypass,7,3,208.9,210
+Knee Replacement,8,1,149.1,128
+Hernia Repair,4,2,54.2,53
+Hip Replacement,6,4,154.5,171
+Hernia Repair,14,2,76.2,71
+Spinal Fusion,17,2,256.2,236
+Cataract Surgery,16,3,40.7,37
+Hip Replacement,13,1,156.6,132
+Cholecystectomy,12,2,68.4,68
+Coronary Artery Bypass,9,4,226.3,256
+Appendectomy,8,1,51.6,44
+Spinal Fusion,10,4,215.7,215
+Hernia Repair,5,4,67.1,74
+Spinal Fusion,15,4,207.8,211
+Knee Replacement,7,2,117.9,114
+Hip Replacement,7,5,149.8,185
+Cataract Surgery,15,1,44.9,30
+Spinal Fusion,15,3,199.0,183
+Appendectomy,4,5,63.9,86
+Coronary Artery Bypass,9,3,223.4,226
+Spinal Fusion,3,2,206.6,207
+Hip Replacement,11,5,129.2,150
+Appendectomy,11,2,61.9,64
+Coronary Artery Bypass,12,4,298.6,353
+Coronary Artery Bypass,17,1,274.1,215
+Cataract Surgery,11,1,37.9,33
+Hernia Repair,6,2,70.1,67
+Coronary Artery Bypass,5,2,248.6,254
+Cholecystectomy,5,3,84.1,84
+Appendectomy,19,1,64.5,56
+Hernia Repair,7,2,72.3,81
+Appendectomy,6,2,56.6,55
+Hernia Repair,14,4,88.2,99
+Spinal Fusion,19,1,255.3,208
+Appendectomy,4,5,40.2,47
+Hernia Repair,9,2,54.5,46
+Knee Replacement,11,1,103.9,103
+Knee Replacement,7,3,131.9,137
+Cataract Surgery,16,2,36.1,34
+Hip Replacement,5,1,153.5,142
+Hip Replacement,1,2,116.0,108
+Cataract Surgery,5,1,28.2,24
+Spinal Fusion,12,2,238.8,220
+Hip Replacement,6,2,152.7,144
+Spinal Fusion,4,2,246.6,250
+Cholecystectomy,1,4,67.9,74
+Knee Replacement,12,3,144.0,158
+Cholecystectomy,13,4,100.1,98
+Coronary Artery Bypass,9,2,290.0,282
+Cataract Surgery,12,4,36.3,41
+Hernia Repair,7,2,51.0,50
+Appendectomy,14,3,63.2,56
+Knee Replacement,11,3,136.6,142
+Knee Replacement,4,2,135.5,136
+Cataract Surgery,9,3,25.8,28
+Spinal Fusion,18,1,192.7,144
+Spinal Fusion,16,2,161.4,142
+Hernia Repair,5,2,71.0,68
+Cholecystectomy,1,3,83.2,100
+Spinal Fusion,4,4,239.9,298
+Appendectomy,11,1,57.6,52
+Hernia Repair,11,3,54.5,58
+Cholecystectomy,5,1,89.7,85
+Cataract Surgery,3,2,32.0,31
+Hip Replacement,6,3,112.6,117
+Appendectomy,11,4,71.2,79
+Coronary Artery Bypass,8,3,267.9,276
+Hernia Repair,10,2,87.6,91
+Cataract Surgery,12,4,24.3,24
+Knee Replacement,6,3,129.3,136
+Cataract Surgery,13,1,34.9,31
+Appendectomy,13,2,47.1,41
+Knee Replacement,14,3,128.3,142
+Cholecystectomy,3,3,64.2,62
+Appendectomy,10,3,71.4,66
+Spinal Fusion,7,5,246.2,276
+Cataract Surgery,4,3,39.7,45
+Cholecystectomy,9,4,79.1,95
+Cholecystectomy,13,1,72.7,59
+Appendectomy,9,3,60.2,62
+Spinal Fusion,13,3,195.0,201
+Hernia Repair,5,2,83.5,85
+Coronary Artery Bypass,2,2,288.1,310
+Spinal Fusion,1,3,211.5,237
+Coronary Artery Bypass,13,3,285.7,261
+Cataract Surgery,11,3,39.6,40
+Spinal Fusion,3,1,238.1,207
+Coronary Artery Bypass,11,1,315.4,275
+Coronary Artery Bypass,9,3,201.5,219
+Coronary Artery Bypass,3,2,311.0,331
+Appendectomy,12,2,73.1,62
+Hip Replacement,14,1,161.0,131
+Hip Replacement,7,3,146.9,145
+Knee Replacement,8,3,99.8,110
+Coronary Artery Bypass,1,1,266.2,250
+Cholecystectomy,8,3,84.7,81
+Spinal Fusion,8,1,256.0,252
+Coronary Artery Bypass,9,1,264.7,252
+Cholecystectomy,8,3,82.6,88
+Hernia Repair,12,3,84.4,78
+Coronary Artery Bypass,10,5,263.2,275
+Cataract Surgery,17,2,37.0,30
+Hernia Repair,1,3,48.0,45
+Hip Replacement,5,3,158.0,173
+Hernia Repair,15,4,56.2,61
+Cholecystectomy,11,2,85.0,84
+Hernia Repair,9,1,53.2,39
+Hip Replacement,9,2,124.1,125
+Hip Replacement,4,1,160.2,163
+Cholecystectomy,5,3,90.4,89
+Appendectomy,6,4,69.7,81
+Hernia Repair,20,2,67.1,57
+Hip Replacement,13,2,155.0,152
+Appendectomy,3,1,57.6,57
+Cholecystectomy,2,1,91.4,88
+Hip Replacement,13,4,132.8,145
+Knee Replacement,9,3,125.2,138
+Spinal Fusion,4,3,170.2,188
+Spinal Fusion,8,1,244.0,228
+Hip Replacement,7,3,158.9,148
+Coronary Artery Bypass,12,2,215.5,179
+Appendectomy,1,4,46.2,54
+Spinal Fusion,7,3,236.4,266
+Coronary Artery Bypass,11,2,202.9,198
+Cholecystectomy,7,3,80.2,88
+Hernia Repair,5,3,60.5,66
+Hip Replacement,5,5,144.6,165
+Hernia Repair,6,3,61.0,60
+Cholecystectomy,7,1,77.1,77
+Knee Replacement,14,3,130.2,124
+Coronary Artery Bypass,12,2,300.4,284
+Spinal Fusion,7,2,221.8,197
+Cataract Surgery,17,3,39.5,36
+Cataract Surgery,9,3,30.3,31
+Hernia Repair,8,1,87.3,76
+Cholecystectomy,14,1,64.3,53
+Coronary Artery Bypass,11,3,258.1,260
+Cholecystectomy,12,2,89.5,80
+Hernia Repair,13,1,64.9,59
+Appendectomy,12,2,63.2,56
+Hernia Repair,17,3,69.7,75
+Cataract Surgery,5,3,35.8,36
+Hernia Repair,5,1,85.9,79
+Hernia Repair,9,1,61.5,58
+Knee Replacement,8,4,113.9,126
+Cataract Surgery,10,3,27.5,25
+Appendectomy,13,2,59.2,62
+Hip Replacement,9,2,119.8,107
+Hernia Repair,5,4,48.6,52
+Hernia Repair,9,2,57.8,48
+Cholecystectomy,7,3,68.2,77
+Hernia Repair,5,1,76.5,71
+Appendectomy,12,3,46.5,48
+Appendectomy,12,2,48.1,48
+Hernia Repair,4,3,80.4,86
+Appendectomy,16,1,51.6,36
+Coronary Artery Bypass,6,4,199.3,226
+Coronary Artery Bypass,15,2,297.7,292
+Cataract Surgery,12,3,26.2,26
+Cholecystectomy,15,3,83.5,80
+Hernia Repair,13,3,87.1,94
+Cholecystectomy,7,4,71.4,77
+Hip Replacement,9,1,168.4,161
+Hernia Repair,6,5,71.3,87
+Cataract Surgery,14,2,37.2,37
+Cataract Surgery,1,5,22.3,26
+Appendectomy,4,4,42.1,45
+Knee Replacement,6,3,121.8,138
+Spinal Fusion,6,3,238.6,255
+Spinal Fusion,9,3,229.7,240
+Hernia Repair,3,3,69.4,75
+Spinal Fusion,8,4,230.6,283
+Knee Replacement,11,2,98.8,97
+Spinal Fusion,10,3,199.9,188
+Appendectomy,4,2,61.7,66
+Cholecystectomy,4,3,89.6,95
+Cataract Surgery,11,2,39.1,38
+Spinal Fusion,7,4,162.2,180
+Knee Replacement,11,1,104.8,92
+Appendectomy,13,3,60.0,54
+Hernia Repair,10,1,47.2,46
+Hip Replacement,18,2,149.3,123
+Appendectomy,9,4,52.6,50
+Appendectomy,9,1,68.8,62
+Hernia Repair,10,1,48.5,46
+Hip Replacement,11,2,141.9,144
+Knee Replacement,1,3,125.7,133
+Spinal Fusion,7,1,224.2,188
+Knee Replacement,2,3,125.2,136
+Cataract Surgery,14,5,43.3,46
+Spinal Fusion,3,2,195.4,179
+Hip Replacement,11,4,143.8,170
+Hernia Repair,1,1,61.2,61
+Appendectomy,4,5,74.4,87
+Hernia Repair,12,2,45.3,42
+Hernia Repair,3,3,86.4,93
+Cholecystectomy,7,2,61.7,62
+Hip Replacement,10,2,124.0,114
+Hip Replacement,8,1,154.1,120
+Cholecystectomy,6,3,86.8,100
+Cholecystectomy,13,4,95.1,98
+Coronary Artery Bypass,16,2,244.1,195
+Appendectomy,8,3,62.2,63
+Spinal Fusion,12,2,209.4,208
+Appendectomy,22,3,63.6,57
+Cholecystectomy,8,1,70.0,67
+Cholecystectomy,9,2,81.4,71
+Coronary Artery Bypass,9,1,255.2,218
+Hip Replacement,7,3,139.3,141
+Hip Replacement,8,3,124.5,137
+Cholecystectomy,5,1,65.1,62
+Spinal Fusion,13,5,215.3,243
+Cataract Surgery,1,2,35.6,38
+Spinal Fusion,9,3,167.2,167
+Hip Replacement,18,4,166.9,158
+Appendectomy,10,2,52.0,47
+Spinal Fusion,6,3,173.0,180
+Hernia Repair,1,3,69.7,67
+Appendectomy,14,2,53.2,46
+Appendectomy,11,1,49.9,39
+Appendectomy,5,4,42.3,45
+Spinal Fusion,19,3,245.1,232
+Hip Replacement,1,4,168.8,197
+Cataract Surgery,6,3,41.7,44
+Cataract Surgery,9,4,34.0,37
+Hernia Repair,7,2,60.0,60
+Spinal Fusion,4,5,189.1,269
+Hernia Repair,2,4,81.5,87
+Appendectomy,12,2,73.0,67
+Coronary Artery Bypass,13,5,275.4,318
+Hip Replacement,4,2,135.0,131
+Spinal Fusion,14,3,199.4,209
+Hip Replacement,6,3,161.8,186
+Knee Replacement,16,3,118.7,107
+Knee Replacement,1,1,112.5,101
+Spinal Fusion,10,2,242.3,233
+Coronary Artery Bypass,6,4,315.0,386
+Hernia Repair,10,1,51.8,47
+Hernia Repair,4,2,72.3,68
+Appendectomy,7,3,52.6,51
+Cataract Surgery,2,2,37.8,42
+Knee Replacement,10,5,104.0,127
+Hernia Repair,10,2,87.8,92
+Hip Replacement,22,4,114.0,101
+Cataract Surgery,16,2,37.2,30
+Appendectomy,13,2,61.3,51
+Appendectomy,1,1,58.2,57
+Hip Replacement,3,3,141.1,162
+Appendectomy,1,3,46.6,54
+Hernia Repair,3,1,65.8,64
+Knee Replacement,8,3,120.5,122
+Knee Replacement,16,1,137.8,109
+Coronary Artery Bypass,14,4,232.0,245
+Hip Replacement,13,3,163.0,166
+Knee Replacement,11,2,134.5,129
+Spinal Fusion,7,5,159.4,173
+Knee Replacement,3,4,115.8,142
+Knee Replacement,14,1,103.9,97
+Hernia Repair,10,3,58.9,56
+Cholecystectomy,9,3,100.4,103
+Appendectomy,13,1,56.1,44
+Cataract Surgery,4,2,25.9,25
+Cholecystectomy,19,2,87.1,76
+Hip Replacement,13,1,112.9,105
+Appendectomy,11,4,63.3,65
+Appendectomy,12,2,43.8,41
+Knee Replacement,9,1,148.1,122
+Hernia Repair,16,3,59.5,53
+Cholecystectomy,14,2,73.2,72
+Coronary Artery Bypass,7,1,258.2,211
+Cholecystectomy,5,5,81.8,87
+Hernia Repair,11,3,64.2,62
+Spinal Fusion,5,3,252.0,255
+Cataract Surgery,12,3,32.3,35
+Hip Replacement,16,1,110.1,93
+Hip Replacement,14,2,158.0,144
+Hip Replacement,10,4,110.7,126
+Hernia Repair,1,1,58.5,54
+Spinal Fusion,8,1,187.5,151
+Knee Replacement,15,2,105.7,82
+Cataract Surgery,6,3,39.9,40
+Spinal Fusion,13,1,200.9,144
+Hernia Repair,6,1,70.4,59
+Spinal Fusion,13,5,237.9,258
+Hernia Repair,6,3,82.8,92
+Knee Replacement,4,4,126.4,152
+Hernia Repair,9,2,76.7,75
+Cataract Surgery,2,2,41.9,46
+Hernia Repair,8,2,52.9,52
+Cholecystectomy,15,3,80.0,79
+Hip Replacement,1,2,130.4,136
+Spinal Fusion,15,5,165.8,168
+Knee Replacement,14,4,106.3,113
+Cholecystectomy,16,3,60.2,55
+Cholecystectomy,11,3,75.0,74
+Hernia Repair,9,2,46.0,40
+Hip Replacement,8,2,121.6,124
+Cholecystectomy,10,5,72.3,85
+Cholecystectomy,6,1,69.3,66
+Hernia Repair,11,4,70.8,80
+Cataract Surgery,20,1,21.3,18
+Coronary Artery Bypass,6,3,197.0,211
+Cataract Surgery,5,3,35.4,42
+Cholecystectomy,9,1,103.8,85
+Cataract Surgery,6,3,22.4,26
+Cataract Surgery,11,3,25.8,29
+Spinal Fusion,7,4,193.1,198
+Spinal Fusion,15,2,199.9,184
+Cataract Surgery,8,3,41.1,45
+Cholecystectomy,8,3,78.3,79
+Cholecystectomy,4,2,95.7,94
+Hip Replacement,14,2,142.9,129
+Coronary Artery Bypass,1,3,292.0,334
+Hip Replacement,5,3,120.4,117
+Cataract Surgery,5,1,22.9,20
+Cataract Surgery,11,1,24.4,21
+Coronary Artery Bypass,8,2,232.6,220
+Knee Replacement,15,1,143.8,113
+Knee Replacement,5,3,131.3,142
+Cataract Surgery,7,3,24.9,25
+Hernia Repair,16,4,86.3,85
+Cholecystectomy,4,4,86.2,94
+Hernia Repair,20,1,47.8,33
+Spinal Fusion,9,2,162.1,158
+Coronary Artery Bypass,8,2,271.3,244
+Hip Replacement,6,2,149.7,148
+Spinal Fusion,19,3,242.4,271
+Knee Replacement,7,4,95.6,104
+Coronary Artery Bypass,11,4,316.7,349
+Cataract Surgery,5,3,42.3,39
+Cataract Surgery,4,2,32.7,32
+Knee Replacement,15,3,118.4,115
+Hernia Repair,4,5,63.5,76
+Cataract Surgery,13,3,37.6,39
+Knee Replacement,1,3,135.2,146
+Hernia Repair,18,1,65.9,58
+Cataract Surgery,5,3,35.8,35
+Hernia Repair,14,1,72.6,58
+Cataract Surgery,1,2,32.8,34
+Hernia Repair,20,3,58.0,55
+Hernia Repair,6,1,47.8,44
+Hernia Repair,6,1,81.4,71
+Cholecystectomy,9,2,98.3,97
+Hernia Repair,11,3,45.6,47
+Knee Replacement,7,4,131.3,150
+Hip Replacement,12,2,139.1,112
+Cholecystectomy,1,4,103.5,115
+Coronary Artery Bypass,9,3,290.1,318
+Hip Replacement,10,2,144.7,134
+Cholecystectomy,3,2,62.4,64
+Hip Replacement,7,1,132.8,111
+Coronary Artery Bypass,14,3,191.5,182
+Appendectomy,4,4,43.4,49
+Hernia Repair,9,3,60.1,63
+Coronary Artery Bypass,7,3,249.9,250
+Hip Replacement,2,2,141.2,118
+Appendectomy,9,1,63.5,56
+Cholecystectomy,4,2,90.8,98
+Appendectomy,19,3,40.8,41
+Hip Replacement,4,1,167.0,142
+Knee Replacement,10,4,115.7,115
+Knee Replacement,8,2,144.3,132
+Cholecystectomy,13,2,88.7,80
+Spinal Fusion,10,1,178.3,148
+Coronary Artery Bypass,21,2,233.2,213
+Cataract Surgery,12,2,21.7,20
+Cataract Surgery,4,3,22.7,24
+Cholecystectomy,8,1,101.1,87
+Hernia Repair,15,3,80.0,78
+Appendectomy,7,3,72.7,73
+Coronary Artery Bypass,1,2,264.7,268
+Coronary Artery Bypass,8,1,242.5,188
+Hip Replacement,18,2,110.2,93
+Spinal Fusion,8,5,186.7,223
+Cholecystectomy,12,4,76.4,78
+Hernia Repair,10,2,74.2,72
+Hip Replacement,7,3,127.9,136
+Cataract Surgery,4,1,22.1,19
+Hip Replacement,13,2,111.5,103
+Hernia Repair,18,5,67.5,70
+Appendectomy,17,1,41.3,36
+Cholecystectomy,6,5,69.5,79
+Knee Replacement,9,3,135.8,143
+Cataract Surgery,1,1,36.3,35
+Knee Replacement,2,4,95.8,102
+Cholecystectomy,12,4,80.5,92
+Cholecystectomy,3,1,65.1,58
+Hip Replacement,14,3,135.6,110
+Spinal Fusion,6,2,163.3,148
+Hip Replacement,5,1,155.9,138
+Knee Replacement,11,1,136.7,126
+Hip Replacement,11,4,165.5,179
+Coronary Artery Bypass,15,1,291.1,246
+Knee Replacement,7,2,145.9,130
+Cataract Surgery,11,3,37.3,41
+Coronary Artery Bypass,13,3,221.1,238
+Cataract Surgery,17,2,35.3,34
+Coronary Artery Bypass,9,3,190.6,202
+Cholecystectomy,19,3,87.9,69
+Cataract Surgery,7,1,39.3,34
+Knee Replacement,15,1,132.7,109
+Appendectomy,7,2,41.9,42
+Cataract Surgery,8,1,21.1,16
+Appendectomy,17,3,57.0,59
+Spinal Fusion,9,2,196.1,160
+Cholecystectomy,16,4,74.7,81
+Coronary Artery Bypass,15,1,305.9,268
+Coronary Artery Bypass,14,2,208.8,184
+Knee Replacement,11,2,120.2,120
+Spinal Fusion,8,1,164.0,143
+Cataract Surgery,11,4,31.5,36
+Knee Replacement,5,1,138.4,118
+Hip Replacement,13,5,115.2,122
+Cataract Surgery,8,3,40.9,47
+Hip Replacement,6,4,124.9,143
+Knee Replacement,13,1,145.3,118
+Cataract Surgery,4,2,38.3,38
+Cholecystectomy,9,1,80.4,78
+Coronary Artery Bypass,12,3,313.5,325
+Cholecystectomy,8,2,60.7,57
+Appendectomy,6,3,74.2,79
+Knee Replacement,5,3,138.4,154
+Cholecystectomy,7,2,77.3,70
+Hernia Repair,4,2,76.4,72
+Cholecystectomy,3,3,87.9,106
+Spinal Fusion,13,3,247.7,255
+Spinal Fusion,4,3,190.3,189
+Hip Replacement,6,3,118.3,133
+Hip Replacement,9,4,155.2,161
+Coronary Artery Bypass,13,2,226.0,214
+Cholecystectomy,1,4,81.2,93
+Cataract Surgery,13,4,35.5,32
+Cholecystectomy,11,2,68.5,63
+Knee Replacement,11,2,110.9,103
+Knee Replacement,13,3,122.3,114
+Hernia Repair,4,2,63.7,55
+Coronary Artery Bypass,6,1,247.7,215
+Hip Replacement,5,3,160.1,169
+Spinal Fusion,6,3,203.5,200
+Cataract Surgery,15,1,27.6,25
+Hernia Repair,6,4,55.2,64
+Knee Replacement,6,4,114.4,130
+Hernia Repair,13,4,53.2,61
+Knee Replacement,21,3,103.9,109
+Cataract Surgery,12,1,26.5,25
+Spinal Fusion,12,5,257.6,306
+Hernia Repair,20,3,50.5,48
+Cataract Surgery,16,3,43.2,48
+Spinal Fusion,6,5,221.2,294
+Knee Replacement,7,2,139.0,115
+Cholecystectomy,11,3,92.9,92
+Hernia Repair,6,2,46.1,44
+Spinal Fusion,5,2,156.1,144
+Hernia Repair,17,3,53.8,55
+Cholecystectomy,4,3,103.9,116
+Appendectomy,7,4,71.8,82
+Spinal Fusion,14,2,192.5,177
+Cataract Surgery,16,2,41.9,40
+Coronary Artery Bypass,7,5,294.5,383
+Coronary Artery Bypass,1,3,284.7,331
+Knee Replacement,1,5,106.4,135
+Cholecystectomy,5,1,102.0,90
+Hernia Repair,2,3,63.7,67
+Knee Replacement,11,2,106.0,95
+Hernia Repair,7,2,82.6,87
+Appendectomy,11,3,67.7,71
+Cataract Surgery,7,1,23.1,20
+Hip Replacement,10,5,111.7,120
+Spinal Fusion,1,3,213.9,224
+Cataract Surgery,11,3,44.4,42
+Appendectomy,10,2,69.6,67
+Knee Replacement,13,3,114.7,116
+Spinal Fusion,7,1,155.4,154
+Hip Replacement,10,3,156.0,163
+Spinal Fusion,13,2,246.0,205
+Spinal Fusion,1,1,160.5,143
+Hernia Repair,4,4,61.8,71
+Cholecystectomy,1,4,69.8,82
+Cholecystectomy,11,1,78.8,67
+Appendectomy,7,4,56.8,67

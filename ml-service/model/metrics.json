@@ -1,0 +1,25 @@
+{
+  "model_type": "RandomForestRegressor Pipeline",
+  "n_estimators": 120,
+  "random_state": 42,
+  "dataset_samples": 1200,
+  "train_samples": 960,
+  "test_samples": 240,
+  "features": [
+    "procedure_type",
+    "surgeon_experience",
+    "patient_complexity",
+    "historical_average"
+  ],
+  "target": "actual_duration",
+  "metrics": {
+    "MAE_minutes": 5.48,
+    "RMSE_minutes": 7.62,
+    "R2_score": 0.9631
+  },
+  "metric_explanations": {
+    "MAE": "Mean Absolute Error: On average, our prediction is within ±5.48 minutes of the actual surgery duration.",
+    "RMSE": "Root Mean Squared Error: 7.62 minutes, penalizing larger timing discrepancies.",
+    "R2": "R-squared: 0.9631, indicating the model explains 96.3% of the duration variance from procedure and patient factors."
+  }
+}
