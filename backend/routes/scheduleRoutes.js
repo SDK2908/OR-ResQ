@@ -22,7 +22,7 @@ import { DISRUPTION_WEIGHTS } from "../config/weights.js";
 
 const router = Router();
 
-/**b
+/**
  * In-memory operational schedule state
  */
 let activeState = {
@@ -37,22 +37,25 @@ let activeState = {
 /**
  * Initializes baseline schedule if not present.
  */
-function ensureBaselineSchedule() {
+async function ensureBaselineSchedule() {
   if (!activeState.baselineSchedule) {
     const demo = getFreshDemoData();
-    const result = generateBaselineSchedule({
+
+    const result = await generateBaselineSchedule({
       procedures: demo.procedures,
       operatingRooms: demo.operatingRooms,
       surgeons: demo.surgeons,
       equipmentInventory: demo.equipmentInventory,
       date: "2026-09-18"
     });
+
     activeState.baselineSchedule = result.schedule;
     activeState.currentSchedule = result.schedule;
     activeState.lastBaselineResult = result;
     activeState.currentRecovery = null;
     activeState.lastUpdated = new Date().toISOString();
   }
+
   return activeState.baselineSchedule;
 }
 
@@ -64,7 +67,8 @@ router.get("/health", (req, res) => {
   res.status(200).json({
     status: "healthy",
     service: "OR-ResQ Optimization & Recovery Engine",
-    engine: "constraint-based optimization engine using a deterministic priority-first greedy heuristic",
+    engine:
+      "constraint-based optimization engine using a deterministic priority-first greedy heuristic",
     version: "1.0.0",
     uptime: Math.floor(process.uptime()),
     timestamp: new Date().toISOString()
@@ -73,10 +77,13 @@ router.get("/health", (req, res) => {
 
 /**
  * GET /api/demo-data
- * Returns the deterministic demo dataset (ORs, surgeons, equipment inventory, procedures, emergency scenario, weights).
+ * Returns the deterministic demo dataset
+ * (ORs, surgeons, equipment inventory, procedures,
+ * emergency scenario, weights).
  */
 router.get("/demo-data", (req, res) => {
   const data = getFreshDemoData();
+
   res.status(200).json({
     success: true,
     data: {
@@ -88,19 +95,26 @@ router.get("/demo-data", (req, res) => {
 
 /**
  * POST /api/schedule/generate
- * Generates the baseline schedule using deterministic priority-first greedy heuristic.
- * Accepts optional custom procedures, ORs, surgeons, and equipment.
+ *
+ * Generates the baseline schedule using deterministic
+ * priority-first greedy heuristic.
+ *
+ * Accepts optional custom procedures, ORs, surgeons,
+ * and equipment.
  */
-router.post("/schedule/generate", (req, res) => {
+router.post("/schedule/generate", async (req, res) => {
   try {
     const fresh = getFreshDemoData();
+
     const procedures = req.body?.procedures || fresh.procedures;
-    const operatingRooms = req.body?.operatingRooms || fresh.operatingRooms;
+    const operatingRooms =
+      req.body?.operatingRooms || fresh.operatingRooms;
     const surgeons = req.body?.surgeons || fresh.surgeons;
-    const equipmentInventory = req.body?.equipmentInventory || fresh.equipmentInventory;
+    const equipmentInventory =
+      req.body?.equipmentInventory || fresh.equipmentInventory;
     const date = req.body?.date || "2026-09-18";
 
-    const result = generateBaselineSchedule({
+    const result = await generateBaselineSchedule({
       procedures,
       operatingRooms,
       surgeons,
@@ -125,34 +139,56 @@ router.post("/schedule/generate", (req, res) => {
       metrics: result.metrics
     });
   } catch (error) {
+    console.error("[Schedule] Failed to generate baseline:", error);
+
     res.status(500).json({
       success: false,
-      error: error.message || "Failed to generate baseline schedule"
+      error:
+        error.message || "Failed to generate baseline schedule"
     });
   }
 });
 
 /**
  * POST /api/recovery/simulate
- * Simulates emergency arrival, detects resource conflicts, evaluates candidate recovery plans,
+ *
+ * Simulates emergency arrival, detects resource conflicts,
+ * evaluates candidate recovery plans,
  * and returns the lexicographically optimal recovery plan.
  */
-router.post("/recovery/simulate", (req, res) => {
+router.post("/recovery/simulate", async (req, res) => {
   try {
     // 1. Ensure baseline exists
-    ensureBaselineSchedule();
+    await ensureBaselineSchedule();
 
-    // 2. Parse emergency procedure payload or fallback to DEMO_EMERGENCY_SCENARIO
+    // 2. Parse emergency procedure payload
+    // or fallback to DEMO_EMERGENCY_SCENARIO
     const fresh = getFreshDemoData();
-    const payloadEmergency = req.body?.emergencyProcedure || req.body?.emergency || (req.body?.procedureName ? req.body : null);
+
+    const payloadEmergency =
+      req.body?.emergencyProcedure ||
+      req.body?.emergency ||
+      (req.body?.procedureName ? req.body : null);
+
     const emergencyProcedure = payloadEmergency
-      ? { ...DEMO_EMERGENCY_SCENARIO, ...payloadEmergency }
+      ? {
+          ...DEMO_EMERGENCY_SCENARIO,
+          ...payloadEmergency
+        }
       : fresh.emergencyScenario;
 
-    const operatingRooms = req.body?.operatingRooms || fresh.operatingRooms;
-    const surgeons = req.body?.surgeons || fresh.surgeons;
-    const equipmentInventory = req.body?.equipmentInventory || fresh.equipmentInventory;
-    const weights = req.body?.weights || DISRUPTION_WEIGHTS;
+    const operatingRooms =
+      req.body?.operatingRooms || fresh.operatingRooms;
+
+    const surgeons =
+      req.body?.surgeons || fresh.surgeons;
+
+    const equipmentInventory =
+      req.body?.equipmentInventory ||
+      fresh.equipmentInventory;
+
+    const weights =
+      req.body?.weights || DISRUPTION_WEIGHTS;
 
     // 3. Execute Recovery Engine
     const recoveryResult = recoverSchedule({
@@ -175,150 +211,252 @@ router.post("/recovery/simulate", (req, res) => {
 
     // 4. Update in-memory active state
     activeState.currentRecovery = recoveryResult;
-    activeState.currentSchedule = recoveryResult.recoveredSchedule;
-    activeState.lastEmergency = recoveryResult.emergency;
-    activeState.lastUpdated = new Date().toISOString();
+    activeState.currentSchedule =
+      recoveryResult.recoveredSchedule;
+    activeState.lastEmergency =
+      recoveryResult.emergency;
+    activeState.lastUpdated =
+      new Date().toISOString();
 
     res.status(200).json({
       success: true,
       emergency: recoveryResult.emergency,
-      affectedProcedures: recoveryResult.affectedProcedures,
+      affectedProcedures:
+        recoveryResult.affectedProcedures,
       candidates: recoveryResult.candidates,
       selectedPlan: recoveryResult.selectedPlan,
-      baselineSchedule: recoveryResult.baselineSchedule,
-      recoveredSchedule: recoveryResult.recoveredSchedule,
+      baselineSchedule:
+        recoveryResult.baselineSchedule,
+      recoveredSchedule:
+        recoveryResult.recoveredSchedule,
       metrics: recoveryResult.metrics,
       explanation: recoveryResult.explanation,
-      selectionPolicy: recoveryResult.selectionPolicy || SELECTION_POLICY
+      selectionPolicy:
+        recoveryResult.selectionPolicy ||
+        SELECTION_POLICY
     });
   } catch (error) {
+    console.error(
+      "[Recovery] Failed to execute simulation:",
+      error
+    );
+
     res.status(500).json({
       success: false,
-      error: error.message || "Failed to execute recovery simulation"
+      error:
+        error.message ||
+        "Failed to execute recovery simulation"
     });
   }
 });
 
 /**
  * GET /api/schedule/current
- * Returns the currently active schedule (recovered or baseline), active recovery, and metrics.
+ *
+ * Returns the currently active schedule
+ * (recovered or baseline), active recovery,
+ * and metrics.
  */
-router.get("/schedule/current", (req, res) => {
+router.get("/schedule/current", async (req, res) => {
   try {
-    ensureBaselineSchedule();
+    await ensureBaselineSchedule();
 
     res.status(200).json({
       success: true,
       hasBaseline: !!activeState.baselineSchedule,
       hasRecovery: !!activeState.currentRecovery,
-      activeView: activeState.currentRecovery ? "RECOVERED" : "BASELINE",
-      baselineSchedule: activeState.baselineSchedule || [],
-      currentSchedule: activeState.currentSchedule || [],
-      currentRecovery: activeState.currentRecovery || null,
+      activeView: activeState.currentRecovery
+        ? "RECOVERED"
+        : "BASELINE",
+
+      baselineSchedule:
+        activeState.baselineSchedule || [],
+
+      currentSchedule:
+        activeState.currentSchedule || [],
+
+      currentRecovery:
+        activeState.currentRecovery || null,
+
       metrics: activeState.currentRecovery
         ? activeState.currentRecovery.metrics
-        : activeState.lastBaselineResult?.metrics || null,
-      lastUpdated: activeState.lastUpdated
+        : activeState.lastBaselineResult?.metrics ||
+          null,
+
+      lastUpdated:
+        activeState.lastUpdated
     });
   } catch (error) {
+    console.error(
+      "[Schedule] Failed to retrieve current schedule:",
+      error
+    );
+
     res.status(500).json({
       success: false,
-      error: error.message || "Failed to retrieve current schedule"
+      error:
+        error.message ||
+        "Failed to retrieve current schedule"
     });
   }
 });
 
 /**
  * POST /api/recovery/apply
- * Applies a specific candidate plan (PLAN_A, PLAN_B, PLAN_C) or resets view to BASELINE.
+ *
+ * Applies a specific candidate plan
+ * (PLAN_A, PLAN_B, PLAN_C)
+ * or resets view to BASELINE.
  */
 router.post("/recovery/apply", (req, res) => {
   try {
     const { planId } = req.body;
+
     if (!planId) {
-      return res.status(400).json({ success: false, error: "Missing required planId" });
+      return res.status(400).json({
+        success: false,
+        error: "Missing required planId"
+      });
     }
 
+    // Reset to baseline
     if (planId === "BASELINE") {
-      activeState.currentSchedule = activeState.baselineSchedule;
+      activeState.currentSchedule =
+        activeState.baselineSchedule;
+
       activeState.currentRecovery = null;
-      activeState.lastUpdated = new Date().toISOString();
+
+      activeState.lastUpdated =
+        new Date().toISOString();
+
       return res.status(200).json({
         success: true,
         activePlanId: "BASELINE",
-        currentSchedule: activeState.currentSchedule
+        currentSchedule:
+          activeState.currentSchedule
       });
     }
 
-    if (!activeState.currentRecovery || !activeState.currentRecovery.candidates) {
+    // Make sure a recovery simulation exists
+    if (
+      !activeState.currentRecovery ||
+      !activeState.currentRecovery.candidates
+    ) {
       return res.status(400).json({
         success: false,
-        error: "No active recovery simulation found. Simulate recovery first."
+        error:
+          "No active recovery simulation found. Simulate recovery first."
       });
     }
 
-    const candidate = activeState.currentRecovery.candidates.find(c => c.planId === planId);
+    // Find requested candidate plan
+    const candidate =
+      activeState.currentRecovery.candidates.find(
+        (c) => c.planId === planId
+      );
+
     if (!candidate) {
       return res.status(404).json({
         success: false,
-        error: `Candidate plan ${planId} not found in current recovery.`
+        error:
+          `Candidate plan ${planId} not found in current recovery.`
       });
     }
 
+    // Reject infeasible plans
     if (!candidate.feasible) {
       return res.status(422).json({
         success: false,
-        error: `Candidate plan ${planId} is infeasible: ${candidate.rejectionReason}`
+        error:
+          `Candidate plan ${planId} is infeasible: ${candidate.rejectionReason}`
       });
     }
 
-    activeState.currentSchedule = candidate.schedule;
+    // Apply candidate schedule
+    activeState.currentSchedule =
+      candidate.schedule;
+
     activeState.currentRecovery.selectedPlan = {
       planId: candidate.planId,
       strategy: candidate.strategy,
       name: candidate.name,
-      disruptionCost: candidate.disruptionCost,
-      scheduleStability: candidate.scheduleStability
+      disruptionCost:
+        candidate.disruptionCost,
+      scheduleStability:
+        candidate.scheduleStability
     };
-    activeState.currentRecovery.metrics = candidate.metrics;
-    activeState.lastUpdated = new Date().toISOString();
+
+    activeState.currentRecovery.metrics =
+      candidate.metrics;
+
+    activeState.lastUpdated =
+      new Date().toISOString();
 
     res.status(200).json({
       success: true,
       activePlanId: candidate.planId,
-      selectedPlan: activeState.currentRecovery.selectedPlan,
-      currentSchedule: activeState.currentSchedule,
+      selectedPlan:
+        activeState.currentRecovery.selectedPlan,
+      currentSchedule:
+        activeState.currentSchedule,
       metrics: candidate.metrics
     });
   } catch (error) {
+    console.error(
+      "[Recovery] Failed to apply candidate plan:",
+      error
+    );
+
     res.status(500).json({
       success: false,
-      error: error.message || "Failed to apply candidate plan"
+      error:
+        error.message ||
+        "Failed to apply candidate plan"
     });
   }
 });
 
 /**
  * POST /api/schedule/reset
+ *
  * Resets state to clean default demo baseline.
  */
-router.post("/schedule/reset", (req, res) => {
-  activeState = {
-    baselineSchedule: null,
-    currentSchedule: null,
-    currentRecovery: null,
-    lastBaselineResult: null,
-    lastEmergency: null,
-    lastUpdated: new Date().toISOString()
-  };
-  ensureBaselineSchedule();
+router.post("/schedule/reset", async (req, res) => {
+  try {
+    activeState = {
+      baselineSchedule: null,
+      currentSchedule: null,
+      currentRecovery: null,
+      lastBaselineResult: null,
+      lastEmergency: null,
+      lastUpdated:
+        new Date().toISOString()
+    };
 
-  res.status(200).json({
-    success: true,
-    message: "State reset to pristine baseline schedule",
-    baselineSchedule: activeState.baselineSchedule,
-    metrics: activeState.lastBaselineResult?.metrics
-  });
+    await ensureBaselineSchedule();
+
+    res.status(200).json({
+      success: true,
+      message:
+        "State reset to pristine baseline schedule",
+      baselineSchedule:
+        activeState.baselineSchedule,
+      metrics:
+        activeState.lastBaselineResult?.metrics
+    });
+  } catch (error) {
+    console.error(
+      "[Schedule] Failed to reset schedule:",
+      error
+    );
+
+    res.status(500).json({
+      success: false,
+      error:
+        error.message ||
+        "Failed to reset schedule"
+    });
+  }
 });
 
 export default router;
